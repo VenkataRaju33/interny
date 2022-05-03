@@ -1,0 +1,348 @@
+.how-works {
+  text-align: center;
+}
+.how-works > p {
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  color: #000000;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.how-works > img {
+  width: 248.34px;
+  height: 16.79px;
+}
+.img1-num {
+  width: 97px;
+  height: 124px;
+  left: 114px;
+  top: 101px;
+  font-size: 220px;
+  position: absolute;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  color: #ef8094;
+}
+.sec4-cont > h1 {
+  padding-top: 100px;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+  font-family: "DM Serif Text";
+  color: #000000;
+}
+.sec4-cont > p {
+  font-family: "DM Sans";
+  width: 391px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.img2 {
+  margin-top: -160px;
+}
+.img2-num {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 355px;
+  top: 360px;
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  color: #ef8094;
+}
+.img2-cont {
+  margin-top: -150px;
+  position: relative;
+  left: 502px;
+}
+.img2-cont > h1 {
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+.img2-cont > p {
+  width: 409px;
+  height: 96px;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.img3-num {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 0px;
+  top: 94px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  color: #ef8094;
+}
+.art {
+  position: absolute;
+  width: 195.89px;
+  height: 173.93px;
+  left: 208.97px;
+  top: 241px;
+  z-index: -1;
+}
+.img3-cont {
+  margin-top: 130px;
+  margin-left: -110px;
+}
+.img3-cont > h1 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+.img3-cont > p {
+  width: 453px;
+  height: 96px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.sec4-btn {
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 284px;
+  height: 61px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  background: #ffffff;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .how-works > p {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  .how-works > img {
+    width: 197.34px;
+    height: 13.34px;
+  }
+  .img1 {
+    width: 256.68px;
+    height: 309.92px;
+  }
+  .img1-num {
+    width: 77px;
+    height: 98.54px;
+    left: 54.21px;
+    top: 73.84px;
+    font-size: 220px;
+  }
+  .sec4-cont > h1 {
+    padding-top: 63px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .sec4-cont > p {
+    width: 311px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .img2 {
+    margin-top: -75px;
+    width: 650px;
+    height: 400px;
+    left: 120px;
+  }
+  .img2-num {
+    width: 77.08px;
+    height: 98.54px;
+    top: 225px;
+    left: 285px;
+    font-size: 220px;
+    line-height: 56px;
+    color: #ef8094;
+  }
+  .img2-cont > h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .img2-cont > p {
+    width: 325.02px;
+    height: 76.29px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .img2-cont {
+    margin-top: -25px;
+    left: 400px;
+  }
+  .img3 {
+    width: 260.69px;
+    height: 329.86px;
+    left: -30px;
+  }
+  .img3-num {
+    width: 77.08px;
+    height: 98.54px;
+    left: 0px;
+    top: 74.7px;
+    font-size: 220px;
+    line-height: 56px;
+  }
+  .art {
+    width: 155.67px;
+    height: 138.21px;
+    left: 166.06px;
+    top: 191.51px;
+    z-index: -1;
+  }
+  .img3-cont > h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .img3-cont > p {
+    width: 360px;
+    height: 76px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .img3-cont {
+    margin-left: -50px;
+  }
+  .sec4-btn {
+    width: 225.68px;
+    height: 48.5px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .how-works > p {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .how-works > img {
+    width: 248.34px;
+    height: 16.79px;
+  }
+  .img1 {
+    width: 400px;
+    height: 380px;
+    margin-left: -70px;
+  }
+  .img1-num {
+    width: 97px;
+    height: 124px;
+    left: 68.22px;
+    top: 93px;
+    font-size: 220px;
+  }
+  .sec4-cont {
+    margin-left: 50px;
+  }
+  .sec4-cont > h1 {
+    padding-top: 30px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .sec4-cont > p {
+    width: 277px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .img2 {
+    margin-top: 40px;
+    width: 875px;
+    height: 517px;
+    left: -320px;
+  }
+  .img2-num {
+    width: 97px;
+    height: 124px;
+    top: 120px;
+    left: 10px;
+  }
+  .img2-cont > h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .img2-cont > p {
+    width: 294px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .img2-cont {
+    margin-top: -85px;
+    left: 50px;
+  }
+  .img3 {
+    width: 308px;
+    height: 411px;
+    left: 10px;
+  }
+  .img3-num {
+    width: 97px;
+    height: 124px;
+    left: 20px;
+    top: 94px;
+    font-size: 220px;
+    line-height: 56px;
+  }
+  .art {
+    width: 195.67px;
+    height: 174px;
+    left: 208px;
+    top: 241px;
+    z-index: -1;
+  }
+  .img3-cont > h1 {
+    font-size: 36px;
+    line-height: 44px;
+    width: 170px;
+  }
+  .img3-cont > p {
+    width: 281px;
+    height: 159px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .img3-cont {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .sec4-btn {
+    width: 284px;
+    height: 61px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 10%;
+    margin-top: 0;
+  }
+}

@@ -1,34 +1,56 @@
-.logo_text{
-    font-weight: 700;
-font-size: 28px;
-line-height: 36px;
-letter-spacing: 0.28em;
-
-color: #000000;
-
+.logo {
+  width: 56px;
 }
-.collapse{
-    justify-content: end !important;
-}
-.nav-text{
-    font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-letter-spacing: 0.16em;
-padding-right: 41px !important;
-color: #000000 !important;
+.logo_text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.28em;
+  padding-left: 16px;
 
+  color: #000000;
 }
-.nav-btn{
-    font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-letter-spacing: 0.12em;
-padding: 9px 11px 10px 30px !important;
-width: 124px;
-height: 37px;
-background: none;
-color: #000000 !important;
-border: 2px solid #4A4A4A;
-border-radius: 300px;
+.collapse {
+  justify-content: end !important;
+}
+.nav-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  padding-right: 41px !important;
+  color: #000000 !important;
+}
+.nav-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+  padding: 9px 11px 10px 30px !important;
+  width: 124px;
+  height: 37px;
+  background: none;
+  color: #000000 !important;
+  border: 2px solid #4a4a4a;
+  border-radius: 300px;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .logo {
+    width: 37px;
+  }
+  .logo_text {
+    font-size: 16px;
+    padding-left: 12px;
+  }
+  .nav-text {
+    font-size: 10px;
+    line-height: 13px;
+    padding-right: 31px !important;
+  }
+  .nav-btn {
+    height: 32px;
+    width: 105px;
+    font-size: 10px;
+    line-height: 13px;
+  }
 }

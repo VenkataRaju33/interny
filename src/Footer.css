@@ -1,0 +1,116 @@
+.foot {
+  background-color: #eeeeee;
+  padding: 44px 72px 17px 80px;
+  margin-top: 30px;
+  border: 2px solid #c4c4c4;
+}
+.foot-logo > img {
+  width: 38px;
+}
+.foot-logo > span {
+  letter-spacing: 0.28em;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.social-media {
+  display: flex;
+}
+.social-media > img {
+  margin-right: 31px;
+  width: 26px;
+  height: 26px;
+}
+.foot-media {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 47px;
+}
+li {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+  list-style-type: none;
+  color: #000000;
+  padding-bottom: 10px;
+}
+.li-head {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.12em;
+  color: #000000;
+  margin-bottom: 13px;
+}
+.footer-menu {
+  margin-top: 61px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 47px;
+}
+.footer-foot {
+  display: flex;
+  border-top: 2px solid #c4c4c4;
+}
+.footer-foot > p,
+.foot-plex > p {
+  padding-top: 25px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.12em;
+  margin-right: 36px;
+  color: #000000;
+}
+.foot-plex {
+  display: flex;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  ul {
+    width: 50%;
+  }
+  .footer-foot {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .foot-plex > p {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  ul {
+    width: 50%;
+  }
+  .li-head {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  .social-media {
+    display: none;
+  }
+  .foot {
+    padding-left: 15px;
+  }
+  .footer-foot {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .foot-plex {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-plex > p {
+    margin-bottom: 0;
+  }
+  .footer-foot > p {
+    width: 350px;
+  }
+}
